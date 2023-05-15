@@ -4,22 +4,19 @@ function App() {
   return (
     <div>
       <div>
-        <Button>2374</Button>
+        <Button success rounded outline>2374</Button>
       </div>
       <div>
-        <Button></Button>
+        <Button danger outline>111111</Button>
       </div>
       <div>
-        <Button></Button>
+        <Button warning>2222222</Button>
       </div>
       <div>
-        <Button></Button>
+        <Button secondary outline>3323333</Button>
       </div>
       <div>
-        <Button></Button>
-      </div>
-      <div>
-        <Button></Button>
+        <Button primary rounded>44444444</Button>
       </div>
     </div>
   );
