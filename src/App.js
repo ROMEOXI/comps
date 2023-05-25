@@ -1,8 +1,9 @@
 import Sidebar from "./components/Sidebar";
 import Route from "./components/Route";
-import AccordionPage from "./pages/AccordionPage"
-import DropdownPage from "./pages/DropdownPage"
-import ButtonPage from "./pages/ButtonPage"
+import AccordionPage from "./pages/AccordionPage";
+import DropdownPage from "./pages/DropdownPage";
+import ButtonPage from "./pages/ButtonPage";
+import ModalPage from "./pages/ModalPage";
 
 function App() {
   return (
@@ -10,13 +11,16 @@ function App() {
       <Sidebar />
       <div className="col-span-5">
         <Route path="/accordion">
-          <AccordionPage/>
+          <AccordionPage />
         </Route>
         <Route path="/">
-          <DropdownPage/>
+          <DropdownPage />
         </Route>
         <Route path="/buttons">
-          <ButtonPage/>
+          <ButtonPage />
+        </Route>
+        <Route path="/modal">
+          <ModalPage />
         </Route>
       </div>
     </div>
