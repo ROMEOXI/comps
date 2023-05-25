@@ -1,11 +1,5 @@
 import className from "classnames";
 
-// const finalClassName = className("px-1.5", {
-//   "bg-blue-500": true,
-//   "text-yellow-500": false,
-// });
-// console.log(finalClassName);
-
 function Button({
   children,
   primary,
@@ -34,7 +28,6 @@ function Button({
     'text-red-500': outline && danger,
   });
 
-  console.log(classes);
   return <button {...rest} className={classes}>{children}</button>;
 }
 
